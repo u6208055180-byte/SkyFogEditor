@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skyfog_editor",
+  "version": "${version}",
+  "name": "Sky & Fog Editor",
+  "description": "Client-side sky and fog color editor with a compact settings menu.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.skyfog.editor.SkyFogEditorClient"
+    ]
+  },
+  "mixins": [
+    "skyfog_editor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
